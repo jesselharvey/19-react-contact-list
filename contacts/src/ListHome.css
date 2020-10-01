@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  padding: 5px;
+  background: #8EB94F;
+}
+.listContainer {
+  display: flex;
+  flex-flow: column;
+  /* align-items: center; */
+  width: 15%;
+  margin: 0% auto;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+}
+.contactThumbnail {
+  border-radius: 50%;
+}

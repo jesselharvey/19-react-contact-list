@@ -1,18 +1,22 @@
 import React from "react"
 import randomUsers from "./randomUsers.json"
 import {BrowserRouter as Router, Switch, Route, Link, useParams} from "react-router-dom"
+import "./ListHome.css"
 
 console.log(randomUsers)
 function ListHome() {
   return (
     <div className="listContainer">
+      <h1>Contacts</h1>
       {randomUsers.map((user) => (
-        <Link to={"/contact/" + user.id}>
         <div key={user.id} className="listItem">
-          <img src={user.picture.thumbnail} />
-          {user.name.first} {user.name.last}
-        </div>
+        <Link to={"/contact/" + user.id}>
+          <img className="contactThumbnail" src={user.picture.thumbnail} />
         </Link>
+        <Link to={"/contact/" + user.id}>
+          <span>{user.name.first} {user.name.last}</span>
+        </Link>
+        </div>
       ))}
     </div>
   )
