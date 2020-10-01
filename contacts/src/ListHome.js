@@ -14,7 +14,7 @@ function ListHome() {
           <img className="contactThumbnail" src={user.picture.thumbnail} />
         </Link>
         <Link to={"/contact/" + user.id}>
-          <span>{user.name.first} {user.name.last}</span>
+          <span className="name">{user.name.first} {user.name.last}</span>
         </Link>
         </div>
       ))}

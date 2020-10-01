@@ -1,0 +1,40 @@
+.contactContainer {
+  margin: 0 auto;
+  /* display: flex; */
+  width: 50%;
+  /* flex-flow: column; */
+  /* justify-content: center; */
+}
+.contactHeader {
+  display: flex;
+  justify-content: center;
+  background-color: #8EB94F;
+  margin-top: -7%;
+  padding: 7%;
+}
+.backArrow {
+  position: relative;
+  left: 5px;
+  /* bottom: -30px; */
+}
+.userImg {
+  border-radius: 50%;
+}
+.contactBody {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-evenly; */
+}
+.contactBody > div {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin: 2.5% 0%; */
+  border-style: solid;
+  border-width: .5px 0px .5px 0px;
+  border-color: #ccc;
+  padding: 3% 0;
+}
+.svgImgs {
+  margin-right: 5%;
+}

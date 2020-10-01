@@ -1,19 +1,49 @@
 h1 {
-  text-align: center;
+  /* text-align: center; */
   padding: 5px;
   background: #8EB94F;
+  color: #fff;
+  margin-bottom: -.5%;
 }
 .listContainer {
   display: flex;
   flex-flow: column;
+  /* justify-items: center; */
   /* align-items: center; */
-  width: 15%;
-  margin: 0% auto;
+  width: 50%;
+  margin: -1.5% auto 0%;
 }
 .listItem {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin: 2.5% 0%; */
+  border-style: solid;
+  border-width: .5px 0px .5px 0px;
+  border-color: #ccc;
+  padding: 3% 0;
+  font-size: 20px;
 }
 .contactThumbnail {
   border-radius: 50%;
+  width: 120%;
+}
+a {
+  margin-right: 25%;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:active {
+  color: #000000;
+  text-decoration: none;
 }
