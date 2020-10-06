@@ -3,7 +3,7 @@ import randomUsers from "./randomUsers.json"
 import {BrowserRouter as Router, Switch, Route, Link, useParams} from "react-router-dom"
 import "./ListHome.css"
 
-console.log(randomUsers)
+// console.log(randomUsers)
 function ListHome() {
   return (
     <div className="listContainer">
